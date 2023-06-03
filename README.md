@@ -22,3 +22,7 @@ Mensagem de exceção (erro desaparece após 2 seg):
 
 ![image](https://github.com/SANDIEGOVIEIRA/NotasAPPreact/assets/38019660/8ab4e2be-76fd-4afd-88d6-3aba72c90f55)
 ![image](https://github.com/SANDIEGOVIEIRA/NotasAPPreact/assets/38019660/4c3cbbff-c93b-4641-b1dc-74711432e976)
+
+Server Json em execução:
+
+![image](https://github.com/SANDIEGOVIEIRA/NotasAPPreact/assets/38019660/6d52b0bc-a69b-4f25-89e8-18150e14ad00)
