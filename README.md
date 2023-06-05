@@ -1,6 +1,18 @@
 # NotasAPPreact
 
 
+## Iniciar Aplicação:
+
+```s
+cd NotasAPP //nome do arquivo principal
+npm install // instalar as dependências
+```
+- Será preciso abrir 2 terminais ambos já no arquivo principal
+```s
+npm run json-server // de preferência inicia primeiro o servidor
+npm start // iniciar React
+```
+
 Estilizado em UI react:
 ![image](https://github.com/SANDIEGOVIEIRA/NotasAPPreact/assets/38019660/7d446151-4fc9-4a13-9ee6-9dfb52289748)
 
