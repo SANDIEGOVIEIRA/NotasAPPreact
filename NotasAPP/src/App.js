@@ -47,6 +47,14 @@ function App() {
       }, 2000);
       return;
     }
+    
+    if (inputText.length > 1) {
+    setErrorMessage('A nota deve conter apenas um caractere.');
+    setTimeout(() => {
+      setErrorMessage('');
+    }, 2000);
+    return;
+  }
 
     const newNote = {
       text: inputText,
