@@ -12,6 +12,19 @@ npm install // instalar as dependências
 npm run json-server // de preferência inicia primeiro o servidor
 npm start // iniciar React
 ```
+## Exceções adicionadas para adicionar nota
+- Nota em branco: Não é permitido adicionar uma nota em branco. Se o usuário tentar adicionar uma nota sem texto, será exibida uma mensagem de erro indicando que a nota não pode estar em branco.
+
+- Caractere "-" na nota: Não é permitido que a nota contenha o caractere "-". Se o usuário tentar adicionar uma nota com esse caractere, será exibida uma mensagem de erro indicando que a nota não pode conter o caractere "-".
+
+- Mais de um caractere na nota: Não é permitido adicionar uma nota com mais de um caractere. Se o usuário tentar adicionar uma nota com mais de um caractere, será exibida uma mensagem de erro indicando que a nota deve conter apenas um caractere.
+
+## Funcionalidades
+- Adicionar uma nova anotação: Digite o texto da anotação no campo "Nova Nota" e clique no botão "Adicionar".
+
+- Filtrar por importância: Clique nos botões "Todos" ou "Importantes" para filtrar as anotações exibidas.
+
+- Marcar uma anotação como importante: Ao visualizar a lista de anotações, clique no ícone de estrela ao lado de uma anotação para alternar a importância.
 
 Estilizado em UI react:
 ![image](https://github.com/SANDIEGOVIEIRA/NotasAPPreact/assets/38019660/7d446151-4fc9-4a13-9ee6-9dfb52289748)
@@ -34,6 +47,8 @@ Mensagem de exceção (erro desaparece após 2 seg):
 
 ![image](https://github.com/SANDIEGOVIEIRA/NotasAPPreact/assets/38019660/8ab4e2be-76fd-4afd-88d6-3aba72c90f55)
 ![image](https://github.com/SANDIEGOVIEIRA/NotasAPPreact/assets/38019660/4c3cbbff-c93b-4641-b1dc-74711432e976)
+![image](https://github.com/SANDIEGOVIEIRA/NotasAPPreact/assets/38019660/df9cca84-d7bf-4cca-b288-7bdc07ee41d1)
+
 
 Server Json em execução:
 
